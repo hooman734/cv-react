@@ -1,0 +1,21 @@
+{
+  "name": "cv.novel",
+  "version": "1.0.0",
+  "description": "Server for serving my CV",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart" : "cd client && yarn build",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "cv"
+  ],
+  "author": "Hooman Hesamyan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-favicon": "^2.0.1",
+    "path": "^0.12.7"
+  }
+}
